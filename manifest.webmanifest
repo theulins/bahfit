@@ -1,0 +1,30 @@
+{
+  "name": "BahFit · Seu treino, sua evolução",
+  "short_name": "BahFit",
+  "lang": "pt-BR",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0d0c15",
+  "theme_color": "#120d23",
+  "description": "Treinos, cargas, descanso, evolução e Stories personalizados da Bah.",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

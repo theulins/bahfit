@@ -1,0 +1,30 @@
+BAHFIT — APP WEB PESSOAL DA BAH
+================================
+
+1) Abrir localmente
+- Abra index.html em um navegador moderno.
+- O app funciona sem instalar programas. As imagens dos exercícios usam links diretos públicos e exigem internet.
+- Os dados são salvos no armazenamento local (localStorage) do navegador.
+- Se limpar os dados do navegador ou mudar de aparelho, seus dados não vão junto automaticamente.
+
+2) Publicar e instalar como PWA
+- Publique os quatro arquivos (index.html, icon.svg, manifest.webmanifest e sw.js) na mesma pasta de um servidor HTTPS.
+- No celular, abra o site publicado e use Adicionar à tela de início/Instalar app.
+- A parte principal e o registro de dados podem funcionar sem internet após carregar a página instalada.
+- Imagens visualizadas anteriormente podem estar no cache. Imagens não carregadas anteriormente precisam de internet.
+- O cronômetro usa o horário de término para compensar o tempo com a tela bloqueada, mas alertas em segundo plano dependem do navegador e do sistema.
+
+3) Dados pessoais
+- Não há login, servidor ou envio de dados pessoais.
+- Faça backups JSON pela aba Perfil e guarde o arquivo. Restaurar um backup SUBSTITUI os dados atuais.
+
+4) Fotos
+- Fotos demonstrativas: yuhonas/free-exercise-db, licença Unlicense. https://github.com/yuhonas/free-exercise-db
+- Fotos podem demonstrar variações equivalentes, não necessariamente o aparelho da academia.
+
+5) Origem do plano
+- Ficha Tecnofit fornecida pela Bah. 3 treinos, 19 exercícios, frequência 3x/semana, 120s de pausa e execução moderada.
+
+6) Compartilhamento
+- O botão "Baixar cartão PNG" funciona em navegadores com Canvas e download habilitado.
+- O compartilhamento nativo de imagem depende de suporte do navegador e HTTPS; caso não funcione, baixe o PNG.
